@@ -15,16 +15,33 @@ __END__
 
 =head1 NAME
 
-Dist::Zilla::MintingProfile::MapMetro::Map - Short intro
+Dist::Zilla::MintingProfile::MapMetro::Map - Mint a Map::Metro Map distribution
 
 =head1 SYNOPSIS
 
-  use Dist::Zilla::MintingProfile::MapMetro::Map;
+  $ dzil new -P MapMetro::Map  Map::Metro::Plugin::Map::[Cityname];
 
 =head1 DESCRIPTION
 
-Dist::Zilla::MintingProfile::MapMetro::Map is ...
+Dist::Zilla::MintingProfile::MapMetro::Map is the easiest way to create a map distribution for L<Map::Metro>.
 
 =head1 SEE ALSO
+
+L<Map::Metro>
+
+L<Map::Metro::Plugin::Map>
+
+=head1 AUTHOR
+
+Erik Carlsson E<lt>info@code301.comE<gt>
+
+=head1 COPYRIGHT
+
+Copyright 2014 - Erik Carlsson
+
+=head1 LICENSE
+
+This library is free software; you can redistribute it and/or modify
+it under the same terms as Perl itself.
 
 =cut

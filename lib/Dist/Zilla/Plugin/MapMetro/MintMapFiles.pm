@@ -7,18 +7,18 @@ extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::TextTemplate';
 
 override 'merged_section_data' => sub {
-	my $self = shift;
+    my $self = shift;
 
-	my $data = super;
-	for my $name (keys %{ $data }) {
-		$data->{ $name } = \$self->fill_in_string(
-			${ $data->{ $name } }, {
-				dist => \($self->zilla),
-				plugin => \($self),
-			},
-		);
-	}
-	return $data;
+    my $data = super;
+    for my $name (keys %{ $data }) {
+        $data->{ $name } = \$self->fill_in_string(
+            ${ $data->{ $name } }, {
+                dist => \($self->zilla),
+                plugin => \($self),
+            },
+        );
+    }
+    return $data;
 };
 
 1;
@@ -91,7 +91,7 @@ format = %v  %{yyyy-MM-dd HH:mm:ss VVV}d
 
 [PreviousVersion::Changelog]
 [NextVersion::Semantic]
-major = 
+major =
 minor = API Changes, New Features, Enhancements
 revision = Revision, Bug Fixes, Documentation, Meta
 format = %d.%02d%02d
