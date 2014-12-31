@@ -4,7 +4,7 @@ Dist::Zilla::MintingProfile::MapMetro::Map - Mint a Map::Metro Map distribution
 
 # SYNOPSIS
 
-    $ dzil new -P MapMetro::Map  Map::Metro::Plugin::Map::[Cityname];
+    $ dzil new -P MapMetro::Map  Map::Metro::Plugin::Map::[Cityname]
 
 # DESCRIPTION
 

@@ -19,7 +19,7 @@ Dist::Zilla::MintingProfile::MapMetro::Map - Mint a Map::Metro Map distribution
 
 =head1 SYNOPSIS
 
-  $ dzil new -P MapMetro::Map  Map::Metro::Plugin::Map::[Cityname];
+  $ dzil new -P MapMetro::Map  Map::Metro::Plugin::Map::[Cityname]
 
 =head1 DESCRIPTION
 
