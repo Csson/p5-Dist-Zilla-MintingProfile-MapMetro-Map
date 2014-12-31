@@ -1,9 +1,11 @@
+use 5.14.0;
+
 package Dist::Zilla::MintingProfile::MapMetro::Map;
 
-use strict;
-use warnings;
-use 5.10.1;
+# VERSION
 
+use Moose;
+with 'Dist::Zilla::Role::MintingProfile::ShareDir';
 
 1;
 
