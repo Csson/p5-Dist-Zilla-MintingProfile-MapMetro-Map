@@ -8,8 +8,10 @@ Revision history for Dist-Zilla-MintingProfile-MapMetro-Map
  [Documentation]
 
  [Enhancements]
+ - Much improved minting.
 
  [Meta]
+ - Added prereqs
 
  [New Features]
 
