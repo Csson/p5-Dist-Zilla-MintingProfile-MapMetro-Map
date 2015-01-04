@@ -11,8 +11,9 @@ override 'merged_section_data' => sub {
 
     my $data = super;
     for my $name (keys %{ $data }) {
-        my $city = $self->city_name;
+        my $city = $self->zilla->name;
         $city =~ s{^Map-Metro-Plugin-Map-}{};
+
         $data->{ $name } = \$self->fill_in_string(
             ${ $data->{ $name } }, {
                 dist => \($self->zilla),

@@ -8,6 +8,7 @@ Revision history for Dist-Zilla-MintingProfile-MapMetro-Map
  [Documentation]
 
  [Enhancements]
+ - Separated minting of the metro-file.
 
  [Meta]
 
