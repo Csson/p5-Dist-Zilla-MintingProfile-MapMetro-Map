@@ -8,14 +8,17 @@ Revision history for Dist-Zilla-MintingProfile-MapMetro-Map
  [Documentation]
 
  [Enhancements]
- - Use @Iller plugin bundle.
- - Added DZP::MapMetro::MakeLinePod to the minted dist.ini.
 
  [Meta]
 
  [New Features]
 
  [Revision]
+
+0.1300 2015-01-05T16:08:04Z CET
+ [Enhancements]
+ - Use @Iller plugin bundle.
+ - Added DZP::MapMetro::MakeLinePod to the minted dist.ini.
 
 0.1200 2015-01-04T18:35:02Z CET
  [Enhancements]
