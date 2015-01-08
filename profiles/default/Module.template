@@ -3,6 +3,7 @@ use 5.14.0;
 package Map::Metro::Plugin::Map::{{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }};
 
 # VERSION
+# ABSTRACT: Map::Metro map for {{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }}
 
 use Moose;
 with 'Map::Metro::Plugin::Map';
@@ -21,16 +22,18 @@ sub map_package {
 
 __END__
 
+=pod
+
 =encoding utf-8
-
-=head1 NAME
-
-Map::Metro::Plugin::Map::{{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }} - Map::Metro map for {{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }}
 
 =head1 SYNOPSIS
 
     use Map::Metro;
     my $graph = Map::Metro->new('{{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }}')->parse;
+
+Or
+
+	$ map-metro.pl route {{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }} 1 4 
 
 =head1 DESCRIPTION
 
@@ -38,19 +41,8 @@ See L<Map::Metro> for usage information.
 
 =head1 Status
 
+L<Map::Metro::Plugin::Map::{{ $name =~ s{Map::Metro::Plugin::Map::}{}g; $name }}::Lines>
+
 ...
-
-=head1 AUTHOR
-
-{{(my $a = $dist->authors->[0]) =~ s/([<>])/"E<" . {qw(< lt > gt)}->{$1} . ">"/eg; $a}}
-
-=head1 COPYRIGHT
-
-Copyright {{$dist->copyright_year}} - {{(my $a = $dist->authors->[0]) =~ s/\s*<.*$//; $a}}
-
-=head1 LICENSE
-
-This library is free software; you can redistribute it and/or modify
-it under the same terms as Perl itself.
 
 =cut

@@ -60,14 +60,16 @@ is $routing->get_route(0)->get_step(0)->origin_line_station->station->name, '<<N
 # more tests
 
 done_testing;
-__[ dist.ini ]__
+__[ iller.ini ]__
 name = {{ $dist->name }}
 author = {{ $dist->authors->[0] }}
 license = Perl_5
 copyright_holder = {{ $dist->authors->[0] }}
 
-[@Iller]
+[@Author::CSSON]
 is_private = 0
+
+Git::GatherDir.exclude_match = \.png
 
 NextVersion::Semantic.major =
 NextVersion::Semantic.minor = API Changes, New Features, Enhancements

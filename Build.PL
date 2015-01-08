@@ -18,7 +18,7 @@ my %module_build_args = (
     "Erik Carlsson <info\@code301.com>"
   ],
   "dist_name" => "Dist-Zilla-MintingProfile-MapMetro-Map",
-  "dist_version" => "0.1300",
+  "dist_version" => "0.1301",
   "license" => "perl",
   "module_name" => "Dist::Zilla::MintingProfile::MapMetro::Map",
   "recommends" => {},
