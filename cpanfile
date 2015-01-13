@@ -2,7 +2,6 @@ requires 'perl', '5.014000';
 requires 'Moose', '2.0000';
 requires 'Dist::Zilla', '5.000';
 
-requires 'Dist::Iller';
 requires 'Dist::Zilla::Plugin::MapMetro::MakeGraphViz', '0.1100';
 requires 'Dist::Zilla::Plugin::MapMetro::MakeLinePod';
 requires 'Dist::Zilla::Plugin::Git::GatherDir';
@@ -35,7 +34,3 @@ requires 'Dist::Zilla::Plugin::UploadToCPAN';
 requires 'Dist::Zilla::Plugin::Git::Commit';
 requires 'Dist::Zilla::Plugin::Git::Tag';
 requires 'Dist::Zilla::Plugin::Git::Push';
-
-on 'test' => sub {
-    requires 'Test::NoTabs';
-};
