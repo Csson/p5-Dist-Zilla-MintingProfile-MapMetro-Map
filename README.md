@@ -4,7 +4,7 @@ Dist::Zilla::MintingProfile::MapMetro::Map - Mint a Map::Metro Map distribution
 
 # VERSION
 
-Version 0.1301, released 2015-01-13.
+Version 0.1401, released 2015-01-13.
 
 # SYNOPSIS
 

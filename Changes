@@ -4,18 +4,25 @@ Revision history for Dist-Zilla-MintingProfile-MapMetro-Map
  [API Changes]
 
  [Bug Fixes]
- - The bundle used wasn't on Cpan. Now no bundle is added to the generated dist.ini.
 
  [Documentation]
 
  [Enhancements]
 
  [Meta]
- - Adapted to changed Dist::Zilla settings.
+ - All modules should have a version.
 
  [New Features]
 
  [Revision]
+
+0.1400 2015-01-13T14:21:11Z CET
+ [Bug Fixes]
+ - The bundle used wasn't on Cpan. Now no bundle is added to the generated
+   dist.ini.
+
+ [Meta]
+ - Adapted to changed Dist::Zilla settings.
 
 0.1300 2015-01-05T16:08:04Z CET
  [Enhancements]

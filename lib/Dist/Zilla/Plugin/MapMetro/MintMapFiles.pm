@@ -2,6 +2,8 @@ use 5.14.0;
 
 package Dist::Zilla::Plugin::MapMetro::MintMapFiles;
 
+# VERSION
+
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
 with 'Dist::Zilla::Role::TextTemplate';

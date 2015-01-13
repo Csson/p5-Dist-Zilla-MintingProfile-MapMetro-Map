@@ -2,6 +2,8 @@ use 5.14.0;
 
 package Dist::Zilla::Plugin::MapMetro::MintMetroFile;
 
+# VERSION
+
 use Moose;
 with 'Dist::Zilla::Role::FileGatherer';
 
