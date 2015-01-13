@@ -60,23 +60,98 @@ is $routing->get_route(0)->get_step(0)->origin_line_station->station->name, '<<N
 # more tests
 
 done_testing;
-__[ iller.ini ]__
+__[ dist.ini ]__
 name = {{ $dist->name }}
 author = {{ $dist->authors->[0] }}
 license = Perl_5
 copyright_holder = {{ $dist->authors->[0] }}
 
-[@Author::CSSON]
-is_private = 0
+[Git::GatherDir]
+exclude_filename = META.json
+exclude_filename = LICENSE
+exclude_filename = README.md
+exclude_filename = Build.PL
 
-Git::GatherDir.exclude_match = \.png
+[CopyFilesFromBuild]
+copy = META.json
+copy = LICENSE
+copy = Build.PL
 
-NextVersion::Semantic.major =
-NextVersion::Semantic.minor = API Changes, New Features, Enhancements
-NextVersion::Semantic.revision = Revision, Bug Fixes, Documentation, Meta
-NextVersion::Semantic.format = %d.%02d%02d
-NextVersion::Semantic.numify_version = 0
+[ReversionOnRelease]
+prompt = 1
 
-[MapMetro::MakeGraphViz]
+[OurPkgVersion]
 
-[MapMetro::MakeLinePod]
+[NextRelease]
+format = %v  %{yyyy-MM-dd HH:mm:ss VVV}d
+
+[PreviousVersion::Changelog]
+
+[NextVersion::Semantic]
+format = %d.%02d%02d
+major =
+minor = API Changes, New Features, Enhancements
+numify_version = 0
+revision = Revision, Bug Fixes, Documentation, Meta
+
+[Git::Check]
+allow_dirty = dist.ini
+allow_dirty = Changes
+allow_dirty = META.json
+allow_dirty = README.md
+allow_dirty = Build.PL
+
+[GithubMeta]
+issues = 1
+
+[ReadmeAnyFromPod]
+filename = README.md
+location = root
+type = markdown
+
+[MetaNoIndex]
+directory = t
+directory = xt
+directory = inc
+directory = share
+directory = eg
+directory = examples
+
+[Prereqs::FromCPANfile]
+
+[ModuleBuildTiny]
+
+[MetaJSON]
+
+[ContributorsFromGit]
+
+[PodSyntaxTests]
+
+[MetaYAML]
+
+[License]
+
+[ExtraTests]
+
+[ShareDir]
+
+[ExecDir]
+
+[Manifest]
+
+[ManifestSkip]
+
+[CheckChangesHasContent]
+
+[TestRelease]
+
+[ConfirmRelease]
+
+[UploadToCPAN]
+
+[Git::Tag]
+tag_format = %v
+tag_message =
+
+[Git::Push]
+remotes_must_exist = 1
