@@ -4,17 +4,21 @@ Revision history for Dist-Zilla-MintingProfile-MapMetro-Map
  [API Changes]
 
  [Bug Fixes]
+ - Previous version had a faulty dist.ini, which meant nothing could be minted (thanks to BooK for bug report).
 
  [Documentation]
 
  [Enhancements]
 
  [Meta]
- - All modules should have a version.
 
  [New Features]
 
  [Revision]
+
+0.1401 2015-01-13T15:31:07Z CET
+ [Meta]
+ - All modules should have a version.
 
 0.1400 2015-01-13T14:21:11Z CET
  [Bug Fixes]

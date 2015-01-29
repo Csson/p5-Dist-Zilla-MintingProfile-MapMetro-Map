@@ -4,7 +4,7 @@ Dist::Zilla::MintingProfile::MapMetro::Map - Mint a Map::Metro Map distribution
 
 # VERSION
 
-Version 0.1401, released 2015-01-13.
+Version 0.1402, released 2015-01-29.
 
 # SYNOPSIS
 
@@ -24,11 +24,11 @@ Dist::Zilla::MintingProfile::MapMetro::Map is the easiest way to create a map di
 
 # SOURCE
 
-[https://github.com/Csson/p5-Dist-Zilla-MintingProfile-MapMetro-Map](https://github.com/Csson/p5-Dist-Zilla-MintingProfile-MapMetro-Map)
+Source repository is at [https://github.com/Csson/p5-Dist-Zilla-MintingProfile-MapMetro-Map](https://github.com/Csson/p5-Dist-Zilla-MintingProfile-MapMetro-Map).
 
 # HOMEPAGE
 
-[https://metacpan.org/release/Dist-Zilla-MintingProfile-MapMetro-Map](https://metacpan.org/release/Dist-Zilla-MintingProfile-MapMetro-Map)
+Please visit the project's homepage at [https://metacpan.org/release/Dist-Zilla-MintingProfile-MapMetro-Map](https://metacpan.org/release/Dist-Zilla-MintingProfile-MapMetro-Map).
 
 # AUTHOR
 
