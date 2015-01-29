@@ -4,7 +4,7 @@
       "Erik Carlsson <info@code301.com>"
    ],
    "dynamic_config" : 0,
-   "generated_by" : "Dist::Zilla version 5.029, CPAN::Meta::Converter version 2.143240",
+   "generated_by" : "Dist::Zilla version 5.031, CPAN::Meta::Converter version 2.143240",
    "license" : [
       "perl_5"
    ],
@@ -24,9 +24,14 @@
       ]
    },
    "prereqs" : {
+      "build" : {
+         "requires" : {
+            "Module::Build" : "0.3601"
+         }
+      },
       "configure" : {
          "requires" : {
-            "Module::Build::Tiny" : "0.039"
+            "Module::Build" : "0.3601"
          }
       },
       "develop" : {
@@ -74,6 +79,20 @@
          }
       }
    },
+   "provides" : {
+      "Dist::Zilla::MintingProfile::MapMetro::Map" : {
+         "file" : "lib/Dist/Zilla/MintingProfile/MapMetro/Map.pm",
+         "version" : "0.1402"
+      },
+      "Dist::Zilla::Plugin::MapMetro::MintMapFiles" : {
+         "file" : "lib/Dist/Zilla/Plugin/MapMetro/MintMapFiles.pm",
+         "version" : "0.1402"
+      },
+      "Dist::Zilla::Plugin::MapMetro::MintMetroFile" : {
+         "file" : "lib/Dist/Zilla/Plugin/MapMetro/MintMetroFile.pm",
+         "version" : "0.1402"
+      }
+   },
    "release_status" : "stable",
    "resources" : {
       "bugtracker" : {
@@ -86,6 +105,6 @@
          "web" : "https://github.com/Csson/p5-Dist-Zilla-MintingProfile-MapMetro-Map"
       }
    },
-   "version" : "0.1401"
+   "version" : "0.1402"
 }
 
