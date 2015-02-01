@@ -82,15 +82,15 @@
    "provides" : {
       "Dist::Zilla::MintingProfile::MapMetro::Map" : {
          "file" : "lib/Dist/Zilla/MintingProfile/MapMetro/Map.pm",
-         "version" : "0.1402"
+         "version" : "0.1500"
       },
       "Dist::Zilla::Plugin::MapMetro::MintMapFiles" : {
          "file" : "lib/Dist/Zilla/Plugin/MapMetro/MintMapFiles.pm",
-         "version" : "0.1402"
+         "version" : "0.1500"
       },
       "Dist::Zilla::Plugin::MapMetro::MintMetroFile" : {
          "file" : "lib/Dist/Zilla/Plugin/MapMetro/MintMetroFile.pm",
-         "version" : "0.1402"
+         "version" : "0.1500"
       }
    },
    "release_status" : "stable",
@@ -105,6 +105,9 @@
          "web" : "https://github.com/Csson/p5-Dist-Zilla-MintingProfile-MapMetro-Map"
       }
    },
-   "version" : "0.1402"
+   "version" : "0.1500",
+   "x_contributors" : [
+      "Philippe Bruhat (BooK) <book@cpan.org>"
+   ]
 }
 
