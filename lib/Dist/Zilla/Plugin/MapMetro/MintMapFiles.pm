@@ -127,6 +127,8 @@ directory = examples
 
 [ContributorsFromGit]
 
+[PodWeaver]
+
 [PodSyntaxTests]
 
 [MetaYAML]
