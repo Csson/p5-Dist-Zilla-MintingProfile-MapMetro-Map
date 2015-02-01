@@ -159,3 +159,5 @@ tag_message =
 
 [Git::Push]
 remotes_must_exist = 1
+
+[MapMetro::MakeLinePod]
