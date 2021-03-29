@@ -4,7 +4,7 @@ package Dist::Zilla::MintingProfile::MapMetro::Map;
 
 # ABSTRACT: Mint a Map::Metro Map distribution
 # AUTHORITY
-our $VERSION = '0.1501';
+our $VERSION = '0.1502';
 
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';

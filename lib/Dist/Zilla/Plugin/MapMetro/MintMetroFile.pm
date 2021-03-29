@@ -4,7 +4,7 @@ package Dist::Zilla::Plugin::MapMetro::MintMetroFile;
 
 # ABSTRACT: Mint station file
 # AUTHORITY
-our $VERSION = '0.1501';
+our $VERSION = '0.1502';
 
 use Moose;
 with 'Dist::Zilla::Role::FileGatherer';

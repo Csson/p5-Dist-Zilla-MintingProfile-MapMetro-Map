@@ -4,7 +4,7 @@ package Dist::Zilla::Plugin::MapMetro::MintMapFiles;
 
 # ABSTRACT: Mint files
 # AUTHORITY
-our $VERSION = '0.1501';
+our $VERSION = '0.1502';
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
