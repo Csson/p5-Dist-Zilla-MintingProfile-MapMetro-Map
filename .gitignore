@@ -1,8 +1,13 @@
-/Dist-Zilla-MintingProfile-MapMetro-Map-*
+# This file was auto-generated from iller.yaml by Dist::Iller on 2021-03-29 20:30:32 UTC.
+# The following configs were used:
+# * Dist::Iller::Config::Author::CSSON: 0.0328
+
 /.build
 /_build*
 /Build
 MYMETA.*
 !META.json
 /.prove
+/Dist-Zilla-MintingProfile-MapMetro-Map-*
+.coverhistory.json
 script/
