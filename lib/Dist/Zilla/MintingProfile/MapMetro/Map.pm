@@ -2,8 +2,9 @@ use 5.14.0;
 
 package Dist::Zilla::MintingProfile::MapMetro::Map;
 
-# VERSION
 # ABSTRACT: Mint a Map::Metro Map distribution
+# AUTHORITY
+our $VERSION = '0.1501';
 
 use Moose;
 with 'Dist::Zilla::Role::MintingProfile::ShareDir';

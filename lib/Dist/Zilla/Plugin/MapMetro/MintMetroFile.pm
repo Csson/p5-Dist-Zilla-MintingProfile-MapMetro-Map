@@ -2,7 +2,9 @@ use 5.14.0;
 
 package Dist::Zilla::Plugin::MapMetro::MintMetroFile;
 
-# VERSION
+# ABSTRACT: Mint station file
+# AUTHORITY
+our $VERSION = '0.1501';
 
 use Moose;
 with 'Dist::Zilla::Role::FileGatherer';

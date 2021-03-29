@@ -2,7 +2,9 @@ use 5.14.0;
 
 package Dist::Zilla::Plugin::MapMetro::MintMapFiles;
 
-# VERSION
+# ABSTRACT: Mint files
+# AUTHORITY
+our $VERSION = '0.1501';
 
 use Moose;
 extends 'Dist::Zilla::Plugin::InlineFiles';
