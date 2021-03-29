@@ -19,10 +19,10 @@ my %WriteMakefileArgs = (
     "ExtUtils::MakeMaker" => 0,
     "File::ShareDir::Install" => "0.06"
   },
-  "DISTNAME" => "Dist-Iller",
+  "DISTNAME" => "Dist-Zilla-MintingProfile-MapMetro-Map",
   "LICENSE" => "perl",
   "MIN_PERL_VERSION" => "5.014000",
-  "NAME" => "Dist::Iller",
+  "NAME" => "Dist::Zilla::MintingProfile::MapMetro::Map",
   "PREREQ_PM" => {
     "Dist::Zilla" => "6.017",
     "Dist::Zilla::Plugin::InlineFiles" => "6.017",

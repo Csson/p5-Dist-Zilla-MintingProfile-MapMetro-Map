@@ -10,6 +10,8 @@ Revision history for Dist-Zilla-MintingProfile-MapMetro-Map
  [Enhancements]
 
  [Meta]
+ - Rebuilt with modern tooling.
+ - Run (currently very limited) tests on Github Actions.
 
  [New Features]
 
